@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+.navbar {
+    padding-bottom: 10px;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.ul-bg li {
+    border-bottom: 1px solid gainsboro;
+    padding-left: 10px;
+}
+
+/* logo */
+
+.logo {
+    width: 60px;
+}
+
+/* Banner SLider */
+
+
+.slider-img {
+    max-height: 400px;
+}
+
+.Banner {
+    position: relative;
+}
+
+.Search-details {
+    position: absolute;
+    top: 15px;
+    right: 7px;
+}
+
+.Search-field::placeholder {
+    color: black;
+}
+
+/* footer  */
+
+.footer-bg {
+    background-color: #212a2f;
+}
+
+.footer-bg input {
+    background-color: rgb(77, 85, 89);
+    ;
+}
+
+
+/* health prodcuts scroll  */
+
+.wrapper {
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll;
+    padding: 10px;
+
+}
+
+.wrapper::-webkit-scrollbar {
+    width: 0;
+}
+
+.wrapper .item {
+    height: 370px;
+    box-shadow: 5px 10px 10px gray;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
