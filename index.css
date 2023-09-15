@@ -78,6 +78,21 @@
     border-radius: 5px;
 }
 
+.nav-wrapper {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+
+}
+
+.nav-wrapper::-webkit-scrollbar {
+    width: 0;
+}
+
+.nav-bg {
+    background-color: ghostwhite;
+}
+
 
 /* sign up button dropdown  */
 
