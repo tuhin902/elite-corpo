@@ -38,9 +38,10 @@ const showHealthProducts = () => {
         <img src=${item.image} class="card-img-top" alt="...">
         <div class="card-body pt-3 ps-4">
             <h5 class="card-title text-uppercase fw-bold mb-2 border-bottom pb-2">${item.name}</h5>
-            <p class="card-text mb-0">MRP:${item.price}TK<span class='ms-2'>100Tk<span/></p>
-            <p class="card-text mb-0"><small ><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><small/>${item.review}  </p>
-            <p class="card-text fs-6 mb-4 ">Review:This is a nice product</p>
+            <p class="card-text mb-0 text-decoration-line-through d-inline">${item.price}TK</p><span class='ms-2'>100Tk<span/>
+            <div class="mt-3">
+            <button type="button" class="btn btn-dark px-4 py-2">Review</button>
+            <div/>
         </div>
         </div>
         `;
@@ -87,9 +88,10 @@ const showCosmaticsProducts = () => {
         <img src=${item.image} class="card-img-top" alt="...">
         <div class="card-body pt-3 ps-4">
             <h5 class="card-title text-uppercase fw-bold mb-2 border-bottom pb-2">${item.name}</h5>
-            <p class="card-text mb-0">MRP:${item.price}TK<span class='ms-2'>100Tk<span/></p>
-            <p class="card-text mb-0"><small ><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><small/>${item.review}</p>
-            <p class="card-text fs-6 mb-4 ">Review:This is a nice product</p>
+            <p class="card-text mb-0 text-decoration-line-through d-inline">${item.price}TK</p><span class='ms-2'>100Tk<span/>
+            <div class="mt-3">
+            <button type="button" class="btn btn-dark px-4 py-2">Review</button>
+            <div/>
         </div>
         </div>
         `;
@@ -134,11 +136,12 @@ const showMensProducts = () => {
         div.innerHTML = `
         <div class="card item " style="width: 20rem;">
         <img src=${item.image} class="card-img-top" alt="...">
-        <div class="card-body pt-3 ps-4">
+        <div class="card-body pt-3 ps-4 ">
             <h5 class="card-title text-uppercase fw-bold mb-2 border-bottom pb-2">${item.name}</h5>
-            <p class="card-text mb-0">MRP:${item.price}TK<span class='ms-2'>100Tk<span/></p>
-            <p class="card-text mb-0"><small ><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><small/>${item.review} </p>
-            <p class="card-text fs-6 mb-4 ">Review:This is a nice product</p>
+            <p class="card-text mb-0 text-decoration-line-through d-inline">${item.price}TK</p><span class='ms-2'>100Tk<span/>
+            <div class="mt-3">
+            <button type="button" class="btn btn-dark px-4 py-2">Review</button>
+            <div/>
         </div>
         </div>
         `;
