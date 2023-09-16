@@ -62,8 +62,8 @@
 .wrapper {
     display: flex;
     gap: 20px;
-    overflow-x: scroll;
-    padding: 10px;
+    overflow-x: auto;
+    padding: 5px;
 
 }
 
