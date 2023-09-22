@@ -67,10 +67,10 @@
 
 
     <!-- Authorized partner logo  -->
-    <section>
+    <section class="container">
         <!-- Authorized partner image -->
         <p class="text-center mt-3 fs-3 fw-bold ">Authorized Partner </p>
-        <div class=" img-wrapper">
+        <div class=" img-wrapper border">
             <img class="w-25 item" src="./image/products/health5.jpeg" alt="">
             <img class="w-25 item" src="./image/products/health5.jpeg" alt="">
             <img class="w-25 item" src="./image/products/health5.jpeg" alt="">
@@ -81,12 +81,12 @@
 
 
         <!-- Photo gallery image  -->
-        <div>
+        <div class="container">
             <h2 class="text-center my-5 fw-bold">Photo gallery </h2>
 
-            <div class="row row-cols-1 row-cols-md-3 g-4 px-4 px-lg-3">
-                <div class="col ">
-                    <div class="card h-100">
+            <div class="row  g-4 px-4 px-lg-3 ">
+                <div class="col-12 col-lg-3 ">
+                    <div class="card h-100 w-100">
                         <img src="./image/products/health5.jpeg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
@@ -95,49 +95,51 @@
                         </div>
                     </div>
                 </div>
-                <div class="col ">
-                    <div class="card h-100">
-                        <img src="./image/products/health5.jpeg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col ">
-                    <div class="card h-100">
-                        <img src="./image/products/health5.jpeg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="./image/products/health5.jpeg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This card has supporting text below as a natural lead-in to additional
-                                content.</p>
-                        </div>
 
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
+                <div class="col-12 col-lg-3">
+                    <div class="card h-100 w-100">
                         <img src="./image/products/health5.jpeg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This card has even longer content than the first to show that equal
-                                height action.</p>
+                                additional content. This content is a little bit longer.</p>
                         </div>
-
                     </div>
                 </div>
+
+                <div class="col-12 col-lg-3">
+                    <div class="card h-100 w-100">
+                        <img src="./image/products/health5.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-3">
+                    <div class="card h-100 w-100">
+                        <img src="./image/products/health5.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-3">
+                    <div class="card h-100 w-100">
+                        <img src="./image/products/health5.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
 
 
@@ -145,9 +147,9 @@
 
             <div class=" py-4">
                 <h3 class="text-center fw-bold mt-5">Upload Your Photo</h3>
-                <div class="mt-5 row">
+                <div class="mt-5 row container">
                     <div class="col-12 col-lg">
-                        <div class="photo px-5 pt-2 mx-auto ms-1">
+                        <div class="photo px-2 px-lg-5 pt-2 mx-auto ms-1">
                             <label for="file" class="fs-2 me-2"><span>Upload Photo:</span>
                                 <i class="bi bi-images"></i></label>
                             <input type="file" name="image" id="file" accept="image/*" class="">
@@ -155,17 +157,17 @@
                         </div>
                     </div>
 
-                    <div class="ms-5 ms-lg-4 col-12 col-lg mt-5 mt-lg-0">
-                        <div>
-                            <label for="title" class="fs-4 me-2">Event Title:</label>
-                            <input type="text" placeholder="Event Title" class="w-50 ps-2 py-2">
+                    <div class="ms-3 ms-lg-4 col-12 col-lg mt-5 mt-lg-0">
+                        <div class="mb-2">
+                            <label for="title" class="fs-4 mb-2">Event Title:</label>
+                            <br>
+                            <input type="text" placeholder="Event Title" class="w-75 ps-2 py-2">
                         </div>
                         <div>
-                            <p>
-                                <label for="title" class="fs-4">Description:</label>
-                            </p>
-                            <textarea name="description" id="" cols="50" rows="5"
-                                class="px-2 py-2 w-75">Description:</textarea>
+
+                            <label for="title" class="fs-4 mb-2">Description:</label>
+                            <br>
+                            <textarea name="description" id="" cols="30" rows="5" class="px-2 py-2 w-100"></textarea>
                         </div>
                     </div>
 
