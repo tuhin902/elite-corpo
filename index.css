@@ -82,11 +82,17 @@
     display: flex;
     gap: 10px;
     overflow-x: auto;
+    font-size: 10px;
 
 }
 
 .nav-wrapper::-webkit-scrollbar {
     width: 0;
+}
+
+.item {
+
+    border-bottom: 1px solid gainsboro;
 }
 
 .nav-bg {
